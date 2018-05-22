@@ -99,6 +99,9 @@ export default class DrawerView extends React.PureComponent {
         drawerBackgroundColor={
           this.props.navigationConfig.drawerBackgroundColor
         }
+        drawerType={
+          this.props.navigationConfig.drawerType
+        }
         drawerWidth={this.state.drawerWidth}
         onDrawerOpen={this._handleDrawerOpen}
         onDrawerClose={this._handleDrawerClose}
